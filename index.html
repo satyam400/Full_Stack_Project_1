@@ -17,7 +17,7 @@
             width: 100vw;
             height: 100vh;
             transition: 1000ms;
-            left: -100vw;
+            left: -100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -44,6 +44,9 @@
             background-color: rgb(250, 42, 111);
             padding-right: 10px;
             border-radius: 5px;
+        }
+        @media (max-width:500px){
+            .list{visibility: hidden;}
         }
         .p1 div{
             width: 70%;
