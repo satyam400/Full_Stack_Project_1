@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="CSS project/Home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" "></script>
+    <style>
+         #slideBar{
+            display: block;
+            background-color: rgb(0, 0, 0);
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            transition: 1000ms;
+            left: -100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #slideBar i{
+            cursor: pointer;
+            font-size: 25px;
+            color: rgb(255, 0, 0);
+            position: absolute;
+            top: 40px;
+            right: 50px;
+            
+        }
+
+        #slideBar  a{
+            text-decoration: none;
+            color: cornsilk;
+            font-size: 40px;
+            
+        }
+        #slideBar a:hover{
+            background-color: rgb(250, 42, 111);
+            padding-right: 10px;
+            border-radius: 5px;
+        }
+        .p1 div{
+            width: 70%;
+            height: 20px;
+            float: right;
+            
+        }
+        .bp{
+            padding-left: 5vw;
+        }
+        .bp div{
+            float: left;width: 25%;
+          
+            
+        }
+
+        .bp div h2{
+            font-size: 3vw;
+        }
+        .bp div p{
+            font-size: 1.8vw;
+            margin: 8px;
+        }
+
+        
+
+
+
+
+
+
+
+
+
+
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+display: inline-block;
+vertical-align: top;
+width: 30%;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+width: 30%;
+}
+
+.footer-distributed h3 {
+color: #ffffff;
+font: normal 36px 'Cookie', cursive;
+margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img {
+width: 30%;
+}
+
+.footer-distributed h3 span {
+color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+color: #ffffff;
+margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+display: inline-block;
+line-height: 1.8;
+text-decoration: none;
+color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+color: #8f9296;
+font-size: 14px;
+font-weight: normal;
+margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+width: 35%;
+}
+
+
+.footer-distributed .footer-center i {
+background-color: #33383b;
+color: #ffffff;
+font-size: 25px;
+width: 38px;
+height: 38px;
+border-radius: 50%;
+text-align: center;
+line-height: 42px;
+margin: 10px 15px;
+vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+font-size: 17px;
+line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+display: inline-block;
+color: #ffffff;
+vertical-align: middle;
+margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+display: block;
+font-weight: normal;
+font-size: 14px;
+line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+color: #e0ac1c;
+text-decoration: none;
+;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+line-height: 20px;
+color: #92999f;
+font-size: 13px;
+font-weight: normal;
+margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+display: block;
+color: #ffffff;
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+display: inline-block;
+width: 35px;
+height: 35px;
+cursor: pointer;
+background-color: #33383b;
+border-radius: 2px;
+
+font-size: 20px;
+color: #ffffff;
+text-align: center;
+line-height: 35px;
+
+margin-right: 3px;
+margin-bottom: 5px;
+}
+    </style>
+</head>
+
+<body>
+
+    <div class=" mainmenu">
+        <div id="slideBar">
+            <i class="fas fa-bars" onclick="fun()"></i>
+            
+                
+            <a href="home.html">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                
+    
+            <a href="about.html">About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="Destination Page/correctdest.html">Destination</a>
+            <a href="contactus.html">Contact&nbsp;&nbsp;&nbsp;</a>
+            <a class=" btn" href="Contact.html">BOOK NOW</a>
+            
+        </div>
+
+        <input type=" checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars" onclick="fun()"></i>
+        </label>
+        <img src="Imagess/logoo.png" width="90em;" height="90em" style="float: left"><b>Hello there,Welcome to
+            BonVoyage</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <ul class="list">
+            <li class="active" style="align-content: center;">
+                <a href="home.html">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            </li>
+
+            <li><a href="about.html">About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li><a href="Destination Page/correctdest.html">Destination</a></li>
+            <li><a href="contactus.html">Contact&nbsp;&nbsp;&nbsp;</a></li>
+            <a class=" btn" href="Contact.html">BOOK NOW</a>
+        </ul>
+    </div>
+    <div style="width:100%; margin-bottom: 5vh; ">
+        
+        <img class="mySlides" src="Imagess/bg-home.jpg" style="width:100%">
+        <img class="mySlides" src="Imagess/pr.jpg" style="width:100%">
+
+        <img class="mySlides" src="Imagess/feedback.jpg" style="width:100%">
+
+        <img class="mySlides" src="Imagess/po.jpg" style="width:100%">
+        
+    </div>
+
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+    <!--<div class="d1">Travel to any corner of India,without going around in circles</div>
+           <div class="d2">Make Your Tour Amazing With US</div>-->
+           <h2 style="color: black; font-size: 5vw; font-family: Verdana, Geneva, Tahoma, sans-serif; ">Make Your Tour Memorable And Safe
+        </h2>
+    
+    <div class="p1">
+        <img src="Imagess/about.jpg" style="width: 28%; ">
+        <div style="">
+            <p style="font-size: 1.8vw;">traveling is an extraordinary experience every person nedds to try.it reveals a whole new  
+                and existing world out there, opens your inner strength, presents with
+                unforgetable
+                adventures <br>we know india by its heart and soul !! Since we have explored the indian vicinities for
+                long
+                ,we take your india travel simple and hassle free </p>
+
+            <h4 style="font-size: 2vw;">What makes us Special?</h4>
+            <p style="font-size: 1.8vw;">providing network of resources, dedicated and sincere experts, and our
+                innovative
+                memories, all this makes your travel experience exceptional and worthwhile.
+            </p>
+            <h4 style="font-size: 2vw;">we Enrich your Travel Experience</h4>
+            <p style="font-size: 1.8vw;">When trveling with us, you enjoy access to special events, fairs and festivals
+                as we keep
+                a tab on them at place where you are traveling In Rajsthan, for example , you may get enthralled with
+                with various fair and festival happening in a particular month. At kerala, there is Onam, and a lot more
+                in other parts of India.
+            </p>
+        </div>
+    </div>
+    <h2 style="color: black; font-size: 5vw; font-family: Verdana, Geneva, Tahoma, sans-serif; ">best place for visiting
+    </h2>
+    <div class="bp">
+
+        <div>
+            <img src="Imagess/ker.jpg" alt="" " style=" width: 20vw; height: 20vw;">
+            <h2>Kerala</h2>
+        </div>
+        <div>
+            <img src="Imagess/kash.jpg" alt="" style="width: 20vw; height: 20vw;">
+            <h2 style="font-size: 2vw;">Jammu and Kashmir</h2>
+        </div>
+        <div>
+            <img src="Imagess/jaipur.jpg" alt="" style="width: 20vw; height: 20vw;">
+            <h2>jaipur</h2>
+        </div>
+        <div>
+            <img src="Imagess/agra.jpg" alt="" style="width: 20vw; height: 20vw;">
+            <h2>Agra</h2>
+        </div>
+
+    </div>
+    <div class="bp">
+
+        <div>
+            <img src="Imagess/delhi.jpg" alt="" " style=" width: 20vw; height: 20vw;">
+            <h2>Delhi</h2>
+        </div>
+        <div>
+            <img src="Imagess/kutch.jpg" alt="" style="width: 20vw; height: 20vw;">
+            <h2>Kutch</h2>
+        </div>
+        <div>
+            <img src="Imagess/kullu.jpg" alt="" style="width: 20vw; height: 20vw;">
+            <h2>kullu</h2>
+        </div>
+        <div>
+            <img src="Imagess/amritsar.jpg" alt="" style="width: 20vw; height: 20vw;">
+            <h2>Amritshar</h2>
+        </div>
+
+    </div>
+
+    <h2 style="color: black; font-size: 5vw; font-family: Verdana, Geneva, Tahoma, sans-serif; ">tourist feedback</h2>
+    <div class="bp" style="height: 45vw;">
+
+        <div >
+
+            <h2 >Amayera</h2>
+            <p>We travelled to goa for trip with BonVoyage. we loved all arrangements made by them for tours. We stayed
+                at Quest Hotel Kta which
+                is a very good place to stay with all amenities & services easily accessible .Goa is a very beautiful
+                place of oceans..
+            </p>
+        </div>
+        <div  >
+
+            <h2>Arpit</h2>
+            <p>We travelled to Amritshar for trip with BonVoyage. we loved all arrangements made by them for tours. We
+                stayed at Amar Hotel Punjab which
+                is a very good place to stay with all amenities & services easily accessible .Amritshar is a very
+                beautiful place of Gurudwara.
+            </p>
+        </div>
+        <div  >
+
+            <h2>Satyam</h2>
+            <p>We travelled to AGra for trip with BonVoyage. we loved all arrangements made by them for tours. We stayed
+                at Sankar Hotel AGra which
+                is a very good place to stay with all amenities & services easily accessible .Agra is a very beautiful
+                place of Mahal
+            </p>
+        </div>
+        <div  >
+
+            <h2>Saksham</h2>
+            <p>We travelled to Jammu and Kahsmir for trip with BonVoyage. we loved all arrangements made by them for
+                tours. We stayed at Jammu place hotel which
+                is a very good place to stay with all amenities & services easily accessible .Jammu and Kahsmir is a
+                very beautiful place of Lake..
+            </p>
+        </div>
+
+    </div>
+
+    <div class="footer-distributed" style="background-color: black;">
+
+        <div class="footer-left">
+            <img src="Imagess/logoo.png" style="width: 100px; height: 100px;">
+            <h3>About&nbsp;<br><span>BonVoyage</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                |
+                <a href="#">Blog</a>
+                |
+                <a href="#">About</a>
+                |
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">© 2021 Bon Voyage Pvt. Ltd.</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>NH-2,GLA UNIVERSITY
+                    </span>
+                    MATHURA - 205001</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 22-27782183</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@bonvoyage.com">support@bonvoyage.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                We offer best travelling deals at reasonable price and make sure that the journey became memorable for
+                you.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./aboutScript.js"></script>
+    </body>
+
+</html>

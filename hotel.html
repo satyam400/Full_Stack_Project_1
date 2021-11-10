@@ -1,0 +1,189 @@
+<html>
+    <head>
+        <style>
+                        
+* {
+  box-sizing: border-box;
+    
+}
+            body{
+                background-image: url(Imagess/h9.png);
+    background-size: cover;
+            }
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+    font-size: 15px;
+}
+input[type=date], select, textarea {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+    font-size: 15px;
+}input[class=dropdown], select, textarea {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+    font-size: 15px;
+}input[class=hotel], select, textarea {
+  width: 71%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+    font-size: 15px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+            .exp {
+  border-radius: 5px;
+  background-color: transparent;
+                margin-left: 700px;
+  
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px;
+}
+            .container h1{
+                font-size: 80px;
+                color:beige;
+            }
+.container p{
+                font-size: 30px;
+                color:beige;
+            }
+/* Create two columns that float next to eachother */
+.column {
+
+  width: 50%;
+/*  margin-top: -1px;
+  padding: 20px;*/
+    color:beige;
+    font-size: 20px;
+}
+            .column h2{
+                font-size: 40px;
+                color:beige;
+            }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+            a{
+                text-decoration: none;
+                color:white;
+                font-size: 20px;
+                background-color: greenyellow;
+                border-radius: 10px;
+                padding:20px;
+            }
+            a:hover{
+                color:darkgreen;
+                background-color: lawngreen;
+            }
+        </style>
+    </head><body><div class="container"> <a href="home.html" style="float: right">&nbsp;&nbsp;&nbsp;Back&nbsp;&nbsp;</a> 
+  <div style="text-align:center">
+    <h1>Request a QUOTE</h1>
+      <p><i>Without new experiences, something inside us sleeps.The Sleeper must awaken</i></p>
+  </div>
+  <div class="row">
+    <div class="column">
+      
+  <!--      <img class="mySlides" src="h2.jpg" style="width:100%">
+  <img class="mySlides" src="h1.jpg" style="width:100%">
+  <img class="mySlides" src="h3.jpg" style="width:100%">
+  <img class="mySlides" src="h4.jpg" style="width:100%">
+  <img class="mySlides" src="h5.jpg" style="width:100%">-->
+      
+    </div>
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script><div class="exp">
+    <div class="column">
+      <form action="/action_page.php">
+          <h2>Hotel Details</h2>
+          
+          <label for="city">City:</label>
+        <input type="text" id="cname" name="cityname" placeholder="Enter City name"> <br><br><br><label for="hname">Hotel Name:</label>
+        <input type="text" id="hname" name="hotename" placeholder="Enter hotel name" class="hotel"> <br><br><br>
+        <label for="fname">Check In:</label>
+        <input type="date" id="cin" name="cin">
+        &nbsp;<label for="fname">Check Out:</label>
+        <input type="date" id="cout" name="cout">
+        <br><br><br>
+        Adult:<input list="browsers" name="browsers"class="dropdown">
+  <datalist id="browsers">
+    <option value="1">
+    <option value="2">
+    <option value="3">
+    <option value="4">
+    <option value="5">
+  </datalist> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  Children:<input list="browsers" name="browsers" class="dropdown">
+  <datalist id="browsers">
+    <option value="1">
+    <option value="2">
+    <option value="3">
+    <option value="4">
+    <option value="5">
+          </datalist><br><br>
+        
+        <br><br><br>
+        
+          
+        <a href=""> Submit</a>
+      </form>
+      </div></div>
+      </div>
+    </div></body></html>
